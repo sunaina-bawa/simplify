@@ -1,0 +1,35 @@
+
+      body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .diamond {
+        width: 100px; 
+        height: 100px; 
+        position: relative;
+        border-top: 10px solid red;
+        border-bottom: 10px solid rgb(104, 16, 245);
+        border-left: 10px solid rgb(17, 243, 66);
+        border-right: 10px solid rgb(90, 84, 99);
+        transform: rotate(45deg); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      p {
+        transform: rotate(-45deg); 
+        color: white;
+      }
+      span {
+        
+        color: brown;
+      }
+      
