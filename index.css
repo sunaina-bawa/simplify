@@ -4,19 +4,29 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #007bff; /* Blue background color */
 }
 
 .logo {
-    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+    font-size: 64px;
     font-weight: bold;
-    color: #007bff;
+    text-transform: uppercase;
 }
 
-.logo span {
-    transition: transform 0.2s;
+.letter {
+    display: inline-block;
+    transform: rotate(-10deg);
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.logo span:hover {
-    transform: scale(1.2);
+.letter:hover {
+    transform: rotate(10deg);
+    color: #ff5733; 
 }
+
+.f {
+    color: #f6faf7; 
+}
+
