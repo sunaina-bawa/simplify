@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.logo span {
+    transition: transform 0.2s;
+}
+
+.logo span:hover {
+    transform: scale(1.2);
+}
